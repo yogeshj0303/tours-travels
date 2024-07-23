@@ -1,0 +1,29 @@
+{
+    "name": "hi/tours-travels",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Laravel\\Sanctum\\": "vendor/laravel/sanctum/src",
+            "Laravel\\Tinker\\": "vendor/laravel/tinker/src",
+            "NunoMaduro\\Collision\\": "vendor/nunomaduro/collision/src",
+              "Spatie\\LaravelIgnition\\": "vendor/spatie/laravel-ignition/src"
+        }
+    },    
+    "authors": [
+        {
+            "name": "Aishwarya251198",
+            "email": "patilaishwarya318@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10.48",
+        "laravel/ui": "^4.5",
+        "laravel/sanctum": "^3.3"
+    },
+    "require-dev": {
+        "laravel/sail": "^1.29",
+        "laravel/tinker": "^2.9",
+        "nunomaduro/collision": "^7.10",
+        "spatie/laravel-ignition": "^2.5"
+    }
+}
